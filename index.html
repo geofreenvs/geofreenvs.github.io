@@ -1,12 +1,12 @@
 <!Doctype html>
 <html lang="en">
     <head>
-        <title>AI3DCC: Workshop on AI for 3D Content Creation</title>
+        <title>GeoFreeNVS: Controllable Video Diffusion Models for Geometry-free Novel View Synthesis</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Despoina Paschalidou">
-        <meta name="description" content="Workshop page for ai3dcc">
+        <meta name="description" content="Workshop page for GeoFreeNVS">
         <!-- Bootstrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -17,7 +17,7 @@
     <body>
         <div id="navbar-top">
         <nav class="navbar navbar-light px-3">
-            <a class="navbar-brand" href="https://eccv2024.ecva.net/">AI3DCC @ ECCV2024</a>
+            <a class="navbar-brand" href="https://iccv.thecvf.com/">GeoFreeNVS @ ICCV 2025</a>
             <ul class="nav nav-pills">
               <li class="nav-item">
                 <a class="nav-link active" href="index.html#home">Home</a>
@@ -37,10 +37,11 @@
         <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
         <div class="jumbotron" id="home">
             <div class="title">
-                <h4>The second workshop on</h4>
-                <h2>AI for 3D Content Creation</h2>
-                <h4>Brown 1 - 14:00-17:00 - September 30th Half Day @ECCV2024 </h4>
-                <h4>Milan, Italy</h4>
+                <h4>The first workshop on</h4>
+                <h2>GeoFreeNVS: Controllable Video Diffusion Models for <br>
+                    Geometry-free Novel View Synthesis</h2>
+                <!-- <h4>Brown 1 - 14:00-17:00 - September 30th Half Day @ECCV2024 </h4> -->
+                <!-- <h4>Milan, Italy</h4> -->
             </div>
 
 
@@ -50,93 +51,42 @@
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 7"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="7" aria-label="Slide 8"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="8" aria-label="Slide 9"></button>
                   </div>
                   <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="2000">
+                    <div class="carousel-item active" data-bs-interval="11000">
                       <video autoplay muted loop height="500">
-                        <source src="gfx/carousel/prolificdreamer.mp4" type="video/mp4">
+                        <source src="gfx/carousel/cat4d.mp4" type="video/mp4">
                       </video>
                       <div class="carousel-caption d-none d-md-block">
-                        <h5>ProlificDreamer: High-Fidelity and Diverse Text-to-3D Generation with Variational Score Distillation</h5>
-                        <p>NeurIPS 2023</p>
+                        <h5>CAT4D: Create Anything in 4D with Multi-View Video Diffusion Models</h5>
+                        <p>CVPR 2025</p>
                       </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="2000">
+                    <div class="carousel-item" data-bs-interval="11000">
                       <video autoplay muted loop height="500">
-                        <source src="gfx/carousel/text2room.mp4" type="video/mp4">
+                        <source src="gfx/carousel/motionctrl.mp4" type="video/mp4">
                       </video>
                       <div class="carousel-caption d-none d-md-block">
-                        <h5>Text2Room: Extracting Textured 3D Meshes from 2D Text-to-Image Models</h5>
-                        <p>ICCV 2023</p>
+                        <h5>MotionCtrl: A Unified and Flexible Motion Controller for Video Generation</h5>
+                        <p>SIGGRAPH 2024</p>
                       </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="2000">
+                    <div class="carousel-item" data-bs-interval="8000">
                       <video autoplay muted loop height="500">
-                        <source src="gfx/carousel/get3d.mp4" type="video/mp4">
+                        <source src="gfx/carousel/sv3d.mp4" type="video/mp4">
                       </video>
                       <div class="carousel-caption d-none d-md-block">
-                        <h5>GET3D: A Generative Model of High Quality 3D Textured Shapes Learned from Images</h5>
-                        <p>NeurIPS 2022</p>
+                        <h5>SV3D: Novel Multi-view Synthesis and 3D Generation from a Single Image using Latent Video Diffusion</h5>
+                        <p>ECCV 2024</p>
                       </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="2000">
+                    <div class="carousel-item" data-bs-interval="10000">
                       <video autoplay muted loop height="500">
-                        <source src="gfx/carousel/magic123.mp4" type="video/mp4">
+                        <source src="gfx/carousel/cameractrl.mp4" type="video/mp4">
                       </video>
                       <div class="carousel-caption d-none d-md-block">
-                        <h5>Magic123: One Image to High-Quality 3D Object Generation Using Both 2D and 3D Diffusion Priors</h5>
-                        <p>arXiV 2023</p>
-                      </div>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                      <video autoplay muted loop height="500">
-                        <source src="gfx/carousel/instruct-nerf2nerf.mp4" type="video/mp4">
-                      </video>
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5>Instruct-NeRF2NeRF Editing 3D Scenes with Instructions</h5>
-                        <p>ICCV 2023</p>
-                      </div>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                      <video autoplay muted loop height="500">
-                        <source src="gfx/carousel/4dfly.mp4" type="video/mp4">
-                      </video>
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5>4D-fy: Text-to-4D Generation Using Hybrid Score Distillation Sampling</h5>
-                        <p>arXiV 2023</p>
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <video autoplay muted loop height="500">
-                        <source src="gfx/carousel/infinite-nature.mp4" type="video/mp4">
-                      </video>
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5>InfiniteNature-Zero Learning Perpetual View Generation of Natural Scenes from Single Images</h5>
-                        <p>ECCV 2022</p>
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <video autoplay muted loop height="500">
-                        <source src="gfx/carousel/trace_and_pace.mp4" type="video/mp4">
-                      </video>
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5>Trace and Pace: Controllable Pedestrian Animation
-                            via Guided Trajectory Diffusion</h5>
-                        <p>CVPR 2023</p>
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <video autoplay muted loop height="500">
-                        <source src="gfx/carousel/one-2-3-45.mp4" type="video/mp4">
-                      </video>
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5>One-2-3-45: Any Single Image to 3D Mesh in 45 Seconds without Per-Shape Optimization</h5>
-                        <p>arXiV 2023</p>
+                        <h5>CameraCtrl: Enabling Camera Control for Video Diffusion Models</h5>
+                        <p>ICLR 2025</p>
                       </div>
                     </div>
                   </div>
@@ -150,7 +100,7 @@
                   </button>
                 </div>
 
-            <div class="content"><div class="row"><div class="col">
+            <!-- <div class="content"><div class="row"><div class="col">
             <p>
             Developing algorithms capable of generating realistic, high
             quality 3D content at scale has been a long standing problem in
@@ -275,7 +225,7 @@
                 </tr>
             </table>
             </div>
-        </div>
+        </div> -->
 
         <div class="section" id="speakers">
             <div class="title">
@@ -285,92 +235,110 @@
                 <div class="col-xs-6 col-md-3">
                     <div class="thumbnail">
                         <div>
-                            <img src="gfx/speakers/angjoo_kanazawa.png" alt="Angjoo Kanazawa">
+                            <img src="gfx/speakers/ruiqi_gao.png" alt="Ruiqi Gao">
                             <ul class="social">
-                                <a href="https://people.eecs.berkeley.edu/~kanazawa/">
+                                <a href="https://ruiqigao.github.io/">
                                     <li class="icon"><i class="fa fa-home"></i></li>
                                 </a>
-                                <a href="https://twitter.com/akanazawa">
+                                <a href="https://twitter.com/ruiqigao">
                                     <li class="icon"><i class="fa fa-twitter"></i></li>
                                 </a>
                             </ul>
                         </div>
                         <div class="caption">
-                            Angjoo Kanazawa<br><span>Berkeley</span>
+                            Ruiqi Gao<br><span>Google DeepMind</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-xs-6 col-md-3">
                     <div class="thumbnail">
                         <div>
-                            <img src="gfx/speakers/matthias_niessner.jpeg" alt="Matthias Niessner">
+                            <img src="gfx/speakers/robin_rombach.png" alt="Robin Rombach">
                             <ul class="social">
-                                <a href="https://www.niessnerlab.org/">
+                                <a href="https://github.com/rromb">
                                     <li class="icon"><i class="fa fa-home"></i></li>
                                 </a>
-                                <a href="https://twitter.com/MattNiessner">
+                                <a href="https://twitter.com/robrombach">
                                     <li class="icon"><i class="fa fa-twitter"></i></li>
                                 </a>
                             </ul>
                         </div>
                         <div class="caption">
-                            Matthias Niessner<br><span>Technical University of Munich</span>
+                            Robin Rombach<br><span>Black Forest Labs</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-xs-6 col-md-3">
                     <div class="thumbnail">
                         <div>
-                            <img src="gfx/speakers/dimitrios_tzionas.jpeg" alt="Dimitrios Tzionas">
+                            <img src="gfx/speakers/sergey_tulyakov.png" alt="Sergey Tulyakov">
                             <ul class="social">
-                                <a href="https://dtzionas.com/">
+                                <a href="https://stulyakov.com/">
                                     <li class="icon"><i class="fa fa-home"></i></li>
                                 </a>
-                                <a href="https://twitter.com/dimtzionas">
+                                <a href="https://twitter.com/SergeyTulyakov">
                                     <li class="icon"><i class="fa fa-twitter"></i></li>
                                 </a>
                             </ul>
                         </div>
                         <div class="caption">
-                            Dimitrios Tzionas<br><span>University of Amsterdam</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-6 col-md-3">
-                    <div class="thumbnail">
-                        <div>
-                            <img src="gfx/spotlight/lea_mueller.jpeg" alt="Lea Mueller">
-                            <ul class="social">
-                                <a href="https://sites.google.com/view/muelea">
-                                    <li class="icon"><i class="fa fa-home"></i></li>
-                                </a>
-                                <a href="https://twitter.com/leamue27">
-                                    <li class="icon"><i class="fa fa-twitter"></i></li>
-                                </a>
-                            </ul>
-                        </div>
-                        <div class="caption">
-                            Lea Mueller<br><span>UC Berkeley</span>
+                            Sergey Tulyakov<br><span>Snap Inc.</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-xs-6 col-md-3">
                     <div class="thumbnail">
                         <div>
-                            <img src="gfx/spotlight/yinghao_xu.jpeg" alt="Yinghao Xu">
+                            <img src="gfx/speakers/jiatao_gu.png" alt="Jiatao Gu">
                             <ul class="social">
-                                <a href="https://justimyhxu.github.io/">
+                                <a href="https://jiataogu.me/">
                                     <li class="icon"><i class="fa fa-home"></i></li>
                                 </a>
-                                <a href="https://twitter.com/YinghaoXu1">
+                                <a href="https://twitter.com/thoma_gu">
                                     <li class="icon"><i class="fa fa-twitter"></i></li>
                                 </a>
                             </ul>
                         </div>
                         <div class="caption">
-                            Yinghao Xu<br><span>Stanford</span>
+                            Jiatao Gu<br><span>Apple</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="row">
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <div>
+                            <img src="gfx/speakers/jamie_shotton.png" alt="Jamie Shotton">
+                            <ul class="social">
+                                <a href="https://jamie.shotton.org/">
+                                    <li class="icon"><i class="fa fa-home"></i></li>
+                                </a>
+                                <a href="https://twitter.com/JamieDJS">
+                                    <li class="icon"><i class="fa fa-twitter"></i></li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="caption">
+                            Jamie Shotton<br><span>Wayve</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <div>
+                            <img src="gfx/speakers/ali_eslami.png" alt="Ali Eslami">
+                            <ul class="social">
+                                <a href="https://arkitus.com/">
+                                    <li class="icon"><i class="fa fa-home"></i></li>
+                                </a>
+                                <a href="https://twitter.com/arkitus">
+                                    <li class="icon"><i class="fa fa-twitter"></i></li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="caption">
+                            Ali Eslami<br><span>Google DeepMind</span>
                         </div>
                     </div>
                 </div>
@@ -382,6 +350,42 @@
                 <span>Organizers</span>
             </div>
             <div class="row">
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <div>
+                            <img src="gfx/organizers/andrea_tagliasacchi.png" alt="Andrea Tagliasacchi">
+                            <ul class="social">
+                                <a href="https://theialab.ca/">
+                                    <li class="icon"><i class="fa fa-home"></i></li>
+                                </a>
+                                <a href="https://twitter.com/taiyasaki">
+                                    <li class="icon"><i class="fa fa-twitter"></i></li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="caption">
+                            Andrea Tagliasacchi<br><span>SFU / UofT</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <div>
+                            <img src="gfx/organizers/sherwin_bahmani.png" alt="Sherwin Bahmani">
+                            <ul class="social">
+                                <a href="http://sherwinbahmani.github.io/">
+                                    <li class="icon"><i class="fa fa-home"></i></li>
+                                </a>
+                                <a href="https://twitter.com/sherwinbahmani">
+                                    <li class="icon"><i class="fa fa-twitter"></i></li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="caption">
+                            Sherwin Bahmani<br><span>UofT</span>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-xs-6 col-md-3">
                     <div class="thumbnail">
                         <div>
@@ -403,153 +407,90 @@
                 <div class="col-xs-6 col-md-3">
                     <div class="thumbnail">
                         <div>
-                            <img src="gfx/organizers/georgios_pavlakos.jpg" alt="Georgios Pavlakos" class="top-left">
+                            <img src="gfx/organizers/david_lindell.png" alt="David Lindell">
                             <ul class="social">
-                                <a href="https://geopavlakos.github.io/">
+                                <a href="http://https://davidlindell.com/">
                                     <li class="icon"><i class="fa fa-home"></i></li>
                                 </a>
-                                <a href="https://twitter.com/geopavlakos">
+                                <a href="https://twitter.com/davelindell">
                                     <li class="icon"><i class="fa fa-twitter"></i></li>
                                 </a>
                             </ul>
                         </div>
                         <div class="caption">
-                            Georgios Pavlakos<br><span>UT Austin</span>
+                            David Lindell<br><span>UofT</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-xs-6 col-md-3">
                     <div class="thumbnail">
                         <div>
-                            <img src="gfx/organizers/davis_rempe.jpg" alt="Davis Rempe" class="top-left">
+                            <img src="gfx/organizers/konstantinos_derpanis.png" alt="Konstantinos Derpanis">
                             <ul class="social">
-                                <a href="https://davrempe.github.io/">
+                                <a href="https://csprofkgd.github.io/">
                                     <li class="icon"><i class="fa fa-home"></i></li>
                                 </a>
-                                <a href="https://twitter.com/davrempe">
+                                <a href="https://twitter.com/CSProfKGD">
                                     <li class="icon"><i class="fa fa-twitter"></i></li>
                                 </a>
                             </ul>
                         </div>
                         <div class="caption">
-                            Davis Rempe<br><span>NVIDIA</span>
+                            Konstantinos Derpanis<br><span>York University</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-xs-6 col-md-3">
                     <div class="thumbnail">
                         <div>
-                            <img src="gfx/organizers/angel_chang.jpg" alt="Angel Xuan Chang">
+                            <img src="gfx/organizers/marcus_brubaker.png" alt="Marcus Brubaker">
                             <ul class="social">
-                                <a href="https://angelxuanchang.github.io/">
+                                <a href="https://mbrubake.github.io/">
                                     <li class="icon"><i class="fa fa-home"></i></li>
                                 </a>
-                            </ul>
-                        </div>
-                        <div class="caption">
-                            Angel Xuan Chang<br><span>Simon Fraser University</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-6 col-md-3">
-                    <div class="thumbnail">
-                        <div>
-                            <img src="gfx/organizers/kai_wang.jpg" alt="Kai Wang">
-                            <ul class="social">
-                                <a href="https://kwang-ether.github.io/">
-                                    <li class="icon"><i class="fa fa-home"></i></li>
-                                </a>
-                            </ul>
-                        </div>
-                        <div class="caption">
-                            Kai Wang<br><span>Amazon</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <div class="thumbnail">
-                        <div>
-                            <img src="gfx/organizers/amlan_kar.jpg" alt="Amlan Kar">
-                            <ul class="social">
-                                <a href="https://amlankar.github.io/">
-                                    <li class="icon"><i class="fa fa-home"></i></li>
-                                </a>
-                                <a href="https://twitter.com/amlankar95">
-                                    <li class="icon"><i class="fa fa-twitter"></i></li>
-                                </a>
-                            </ul>
-
-                        </div>
-                        <div class="caption">
-                            Amlan Kar<br><span>University of Toronto and NVIDIA Research</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <div class="thumbnail">
-                        <div>
-                            <img src="gfx/organizers/daniel_ritchie.jpg" alt="Daniel Ritchie">
-                            <ul class="social">
-                                <a href="https://dritchie.github.io/">
-                                    <li class="icon"><i class="fa fa-home"></i></li>
-                                </a>
-                            </ul>
-                        </div>
-                        <div class="caption">
-                            Daniel Ritchie<br><span>Brown University</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xs-6 col-md-3">
-                    <div class="thumbnail">
-                        <div>
-                            <img src="gfx/organizers/kaichun_mo.jpg" alt="Kaihcun Mo">
-                            <ul class="social">
-                                <a href="https://kaichun-mo.github.io/">
-                                    <li class="icon"><i class="fa fa-home"></i></li>
-                                </a>
-                                <a href="https://twitter.com/KaichunMo">
+                                <a href="https://twitter.com/marcusabrubaker">
                                     <li class="icon"><i class="fa fa-twitter"></i></li>
                                 </a>
                             </ul>
                         </div>
                         <div class="caption">
-                            Kaichun Mo<br><span>NVIDIA Research</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-6 col-md-3">
-                    <div class="thumbnail">
-                        <div>
-                            <img src="gfx/organizers/manolis_savva.jpg" alt="Manolis Savva" class="top-left">
-                            <ul class="social">
-                                <a href="https://msavva.github.io/">
-                                    <li class="icon"><i class="fa fa-home"></i></li>
-                                </a>
-                            </ul>
-                        </div>
-                        <div class="caption">
-                            Manolis Savva<br><span>Simon Fraser University</span>
+                            Marcus Brubaker<br><span>Google DeepMind</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-xs-6 col-md-3">
                     <div class="thumbnail">
                         <div>
-                            <img src="gfx/organizers/paul_guerrero.png" alt="Paul Guerrero">
+                            <img src="gfx/organizers/boyang_deng.png" alt="Boyang Deng">
                             <ul class="social">
-                                <a href="https://paulguerrero.net/">
+                                <a href="https://boyangdeng.com/">
                                     <li class="icon"><i class="fa fa-home"></i></li>
+                                </a>
+                                <a href="https://twitter.com/boyang_deng">
+                                    <li class="icon"><i class="fa fa-twitter"></i></li>
                                 </a>
                             </ul>
                         </div>
                         <div class="caption">
-                            Paul Guerrero<br><span>Adobe Research</span>
+                            Boyang Deng<br><span>Stanford</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <div>
+                            <img src="gfx/organizers/haven_feng.png" alt="Haven (Haiwen) Feng">
+                            <ul class="social">
+                                <a href="https://havenfeng.github.io/">
+                                    <li class="icon"><i class="fa fa-home"></i></li>
+                                </a>
+                                <a href="https://twitter.com/HavenFeng">
+                                    <li class="icon"><i class="fa fa-twitter"></i></li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="caption">
+                            Haven (Haiwen) Feng<br><span>MPI</span>
                         </div>
                     </div>
                 </div>
@@ -594,6 +535,7 @@
             </div>
             <div class="content">
                 <ul>
+                    <li>ECCV 2024: <a href="https://ai3dcc.github.io/">AI for 3D Content Creation</a> </li>
                     <li>CVPR 2024: <a href="https://ai3dg.github.io/">AI for 3D Generation</a> </li>
                     <li>CVPR 2024: <a href="https://cveu.github.io/">AI for Creative Visual Content Generation Editing and Understanding</a> </li>
                     <li>CVPR 2024: <a href="https://ai4cc.net/">AI for Content Creation</a> </li>
@@ -663,14 +605,6 @@
         </div>
         </div>
 
-        <div class="d-flex">
-        <div class="col-6 d-none d-md-block col-button" style="text-align: left;">
-            <a class="btn btn-primary me-md-2" role="button" href="https://github.com/ai3dcc/ai3dcc.github.io">Webpage Template</a>
-        </div>
-        <div class="col-6 d-none d-md-block col-button" style="text-align: right;">
-            <a class="btn btn-primary me-md-2" role="button" href="#home" >Top</a>
-        </div>
-        </div>
         <!---
         <div class="d-grid gap-2 d-md-flex justify-content-md-end d-none d-md-block col-button">
             <a class="btn btn-primary me-md-2" role="button" href="#home" >Top</a>
